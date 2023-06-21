@@ -1,0 +1,38 @@
+[Documentation Block]
+Data Sheet=Lab10_KSareenLNguyen.pds
+Product=Lab10_KSareenLNguyen
+Revision=1.00
+Orig. Date=04/14/2023
+User Flag 1=
+User Flag 2=
+User Flag 3=
+User Flag 4=
+Comment=
+
+[Datasheet Preferences]
+Show All Test Labels=1
+
+[Binning Block]
+
+[Datasheet Variable Map]
+"integer","TestNmbr","Test Number"
+"integer","SubTestNmbr","Subtest Number"
+"character","DLogDesc","Datalog Description"
+"double","LoLim","Low Limit"
+"double","HiLim","High Limit"
+"double","DFormat","Data Format"
+"character","Units","Units"
+"character","LoFBin","Low Fail Bin"
+"character","HiFBin","High Fail Bin"
+
+[LabelUserTest]
+Function=UserTest
+"",,,"",,,,"","",""
+
+
+[WaveFormTest]
+Function=Wave
+"",,,"",,,,"","",""
+[Test Order]
+LabelUserTest=0,""
+WaveFormTest=1,""
